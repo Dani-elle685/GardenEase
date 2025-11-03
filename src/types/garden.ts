@@ -48,6 +48,8 @@ export interface Claim {
 
 export type UserRole = 'visitor' | 'owner' | 'admin';
 
+export type SignupRole = "visitor" | "owner"; 
+
 export interface User {
   id: string;
   name: string;
